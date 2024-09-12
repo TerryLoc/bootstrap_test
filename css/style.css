@@ -50,8 +50,8 @@ body {
   height: 5px;
   border: 0;
   background-color: orange;
-  margin: auto 0;
-  padding-bottom: 30px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .jumbotron .lead {
