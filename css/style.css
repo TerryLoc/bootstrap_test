@@ -10,7 +10,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+  padding: 0;
+}
+
+.alert {
+  border-radius: 0;
+  margin-bottom: 2px;
+  padding: 10px;
+}
+
+.alert-warning {
+  background-color: rgb(255, 220, 104);
+  border: 1px solid rgb(255, 220, 104);
 }
 
 .callout-container {
@@ -31,6 +43,8 @@ body {
 }
 
 .featured-container {
+  background-color: #bd7086;
+  padding: 20px 0 40px 0;
 }
 
 .fav-container {
@@ -122,7 +136,10 @@ body {
 }
 
 .btn--cta:hover {
+  color: white;
   background-color: #dd7900;
+  margin: -2px;
+  border: 2px solid black;
 }
 
 .btn--red {
