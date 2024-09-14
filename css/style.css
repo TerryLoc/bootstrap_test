@@ -84,6 +84,11 @@ body {
   font-weight: bold;
 }
 
+.navbar-nav {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 1.25);
+}
+
 .navbar-nav .nav-link a {
   font-weight: bold;
 }
